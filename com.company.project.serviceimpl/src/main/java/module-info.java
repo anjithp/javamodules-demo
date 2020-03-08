@@ -1,5 +1,5 @@
 open module com.company.project.serviceimpl {
-	requires transitive com.company.project.service;
+	requires  com.company.project.service;
 
 	requires httpclient;
 	
