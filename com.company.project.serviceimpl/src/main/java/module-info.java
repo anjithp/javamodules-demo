@@ -1,4 +1,4 @@
-module com.company.project.serviceimpl {
+open module com.company.project.serviceimpl {
 	requires transitive com.company.project.service;
 
 	requires httpclient;
